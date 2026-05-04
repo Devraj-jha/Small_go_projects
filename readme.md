@@ -1,1 +1,3 @@
-1. Terminal Calculator
+### 1. Terminal Calculator
+
+![Terminal Calculator](images/terminal-calculator.png)
