@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	var op string
+	var op string 
 	var a, b float64
 
 	fmt.Print("Enter operation (+, -, *, /): ")
