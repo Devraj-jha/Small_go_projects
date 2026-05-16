@@ -7,3 +7,7 @@
 
 ### 3. Simple-Http-server
 ![Simple-Http-server](Read_me_assets/Simple_http.png)
+
+### 4. Terminal-Colors
+![Terminal-Colors](Read_me_assets/Terminal.png)
+
