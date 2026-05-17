@@ -8,15 +8,18 @@ import (
 func main(){
 
 	var num int
-	rand_num := rand.IntN(101)
+	total_attempt := 0 
+	rand_num := rand.IntN(11)
 
-	fmt.Println("--Guess The number( 0 to 100) ---")
+	fmt.Println("--Guess The number( 0 to 10) ---")
 	fmt.Println("Enter the number: ")
 	fmt.Scan(&num)	
 	for {
 
 		if num == rand_num{
 		fmt.Println("Correct !!")
+		fmt.Println("total_attempt:", total_attempt)
+		
 		break
 			
 		}else if num > rand_num{
@@ -27,5 +30,6 @@ func main(){
 			fmt.Println("Low")
 			fmt.Scan(&num)
 		}
+		total_attempt++;
 	}
 }
