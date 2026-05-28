@@ -4,7 +4,7 @@ import "fmt"
 
 func main(){
 	//!Variables 
-	
+
 	// two ways to declare a variable 
 	var age int = 14  // var   name type = value
 	name := "djjha" // shorter name := value
@@ -20,8 +20,9 @@ func main(){
 	
 	//take input => store in variable -> modify varibles -> produce output
 
-	//!
 	fmt.Println(a + b)
 	//age → [ 20 ]
-
+	//!Data types 
+	
+	
 }
