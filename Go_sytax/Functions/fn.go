@@ -15,6 +15,9 @@ func sub( a,b int) int {
 func divide(a, b int) (int, int) {
     return a / b, a % b
 }
+func sqr(a int ) int {
+	return a * a;
+}
 func main(){
 	greet()
 	fmt.Println(add(3,4))
@@ -23,4 +26,3 @@ func main(){
 }
 
 //func name(parameters) return type {
-// }

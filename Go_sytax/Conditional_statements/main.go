@@ -29,5 +29,10 @@ func main(){
 		fmt.Println("billioanire")
 
 	}
+	class := "a"
+
+	if  class == "a" {
+		fmt.Println("a");
+	}
 
 }
