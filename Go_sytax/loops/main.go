@@ -19,5 +19,8 @@ func main() {
 	}
 	fmt.Println(" ")
 	}
-	
+	//break => to break loop 
+	// continue -> skips
+	//
+
 }
